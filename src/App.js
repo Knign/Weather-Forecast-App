@@ -4,8 +4,7 @@ import CurrentWeather from "./components/current-weather/current-weather";
 import Forecast from "./components/forecast/forecast";
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
 import "./App.css";
-import background from './assets/Earth hero img.png';
-
+import spaceVideo from "./assets/space.mp4";
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
@@ -34,7 +33,9 @@ function App() {
 
   return (
     <div>
-      <img src={background} alt="background" id="video"/>
+      <video autoPlay loop muted id="video">
+        <source src={spaceVideo} type="video/mp4" />
+      </video>
       <div className="container">
         <Search onSearchChange={handleOnSearchChange} />
         {currentWeather && <CurrentWeather data={currentWeather} />}

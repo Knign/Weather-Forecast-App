@@ -28,24 +28,21 @@ const Search = ({ onSearchChange }) => {
     setSearch(searchData);
     onSearchChange(searchData);
   };
-  
-  
-
 
   return (
     <div className="searchBar">
       <div>
         <h1 className="Mainheader">
-          <span className="bold-text">Search for weather forecasts on </span> 
+          <span className="bold-text">Search for weather forecasts on </span>
           <span className="italic-text">any city, anytime, anywhere.</span>
         </h1>
       </div>
       <AsyncPaginate
         placeholder="Search for city"
-         debounceTimeout={600}
-         value={search}
-         onChange={handleOnChange}
-         loadOptions={loadOptions}
+        debounceTimeout={600}
+        value={search}
+        onChange={handleOnChange}
+        loadOptions={loadOptions}
       />
       {/* <div>
         <img src={require('./globe (1).svg')} />

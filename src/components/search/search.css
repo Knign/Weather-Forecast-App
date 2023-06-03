@@ -1,37 +1,35 @@
-.searchBar{
-    margin-top:50px;
+.searchBar {
+  margin-top: 50px;
 }
 
-.Mainheader{
-    padding-bottom: 7px;
-    font-size: 50px;
-    
+.Mainheader {
+  padding-bottom: 7px;
+  font-size: 50px;
 }
 
-.bold-text{
-    color: white;
-    font-weight: 100;
+.bold-text {
+  color: white;
+  font-weight: 100;
 }
 
-.italic-text{
-    color: white;
-    font-style: italic;
+.italic-text {
+  color: white;
+  font-style: italic;
 }
 
-.globeImage{
-    size: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px;
-    position: fixed;
-    bottom:-100px;
-    z-index: -1;
-    padding-left: 25px;
-    opacity: 70%;
-    height: 700px;
+.globeImage {
+  size: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  position: fixed;
+  bottom: -100px;
+  z-index: -1;
+  padding-left: 25px;
+  opacity: 70%;
+  height: 700px;
 }
-
 
 /* #video {
     position: fixed;
