@@ -1,4 +1,6 @@
 # Weather Forecast App
+- Gives current day's weather
+- Gives weekly forecast
 
 ## Api used
 - [OpenWeather API](https://openweathermap.org/)
