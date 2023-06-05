@@ -9,5 +9,5 @@
 ## Live
 https://weather-forecast-app-one.vercel.app/
 
-## Future functionalities
-- News feed based on the city selected
+## Future scope
+- Add news feed based on the city selected
